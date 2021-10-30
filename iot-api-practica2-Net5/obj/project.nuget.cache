@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "gDik3iZFxFON2yrWfQN2mAfufKRRobuFH3CeYZOfqXC0xokSeNPyUJbDSQPw7Nl0gg9KNnAPvfG5g90/ApvUVg==",
+  "success": true,
+  "projectFilePath": "E:\\Proyectos2021\\iot-api-practica2-Net5\\iot-api-practica2-Net5\\iot-api-practica2-Net5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jrs\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\jrs\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\jrs\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\jrs\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\jrs\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\jrs\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
