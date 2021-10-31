@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Proyectos2021\\iot-api-practica2-Net5\\iot-api-practica2-Net5\\iot-api-practica2-Net5.csproj": {}
+    "C:\\IoT\\iot-api-practica2-Net5\\iot-api-practica2-Net5\\iot-api-practica2-Net5.csproj": {}
   },
   "projects": {
-    "E:\\Proyectos2021\\iot-api-practica2-Net5\\iot-api-practica2-Net5\\iot-api-practica2-Net5.csproj": {
+    "C:\\IoT\\iot-api-practica2-Net5\\iot-api-practica2-Net5\\iot-api-practica2-Net5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Proyectos2021\\iot-api-practica2-Net5\\iot-api-practica2-Net5\\iot-api-practica2-Net5.csproj",
+        "projectUniqueName": "C:\\IoT\\iot-api-practica2-Net5\\iot-api-practica2-Net5\\iot-api-practica2-Net5.csproj",
         "projectName": "iot-api-practica2-Net5",
-        "projectPath": "E:\\Proyectos2021\\iot-api-practica2-Net5\\iot-api-practica2-Net5\\iot-api-practica2-Net5.csproj",
-        "packagesPath": "C:\\Users\\jrs\\.nuget\\packages\\",
-        "outputPath": "E:\\Proyectos2021\\iot-api-practica2-Net5\\iot-api-practica2-Net5\\obj\\",
+        "projectPath": "C:\\IoT\\iot-api-practica2-Net5\\iot-api-practica2-Net5\\iot-api-practica2-Net5.csproj",
+        "packagesPath": "C:\\Users\\Rudy-Home\\.nuget\\packages\\",
+        "outputPath": "C:\\IoT\\iot-api-practica2-Net5\\iot-api-practica2-Net5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\jrs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rudy-Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -45,9 +47,35 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
